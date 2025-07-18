@@ -393,8 +393,9 @@ class ConditionMapper:
 class BayesianModel:
     """Implements the deductive Bayesian probabilistic modeling."""
     
-    def __init__(self, config: BirdConfig):
+    def __init__(self, config: BirdConfig, llm_interface: LLMInterface=None):
         self.config = config
+        self.llm = llm_interface
         self.factor_outcome_probs = {}  # P(Oi | factor_values)
         self.is_trained = False
     
@@ -433,7 +434,7 @@ class BayesianModel:
     
     def predict_probabilities(self, factor_values: List[FactorValue], outcomes: List[str]) -> Dict[str, float]:
         """Compute P(Oi|factor_values) for each outcome."""
-        if not self.is_trained:
+        if not self.is_trained and self.llm_interface is None:
             # Use uniform distribution if not trained
             return {outcome: 1.0 / len(outcomes) for outcome in outcomes}
         
@@ -444,7 +445,18 @@ class BayesianModel:
             
             for fv in factor_values:
                 key = (fv.factor_name, fv.value, outcome)
-                factor_prob = self.factor_outcome_probs.get(key, 0.5)  # Default to neutral
+                p = self.factor_outcome_probs.get(key, None)
+                if p is None and not (self.llm_interface is None):
+                    elicit_p_prompt = f"What is the probability P({outcome}|{fv.factor_name}={fv.value})? Respond only with a real number between 0 and 1."
+                    p_response = self.llm.generate_text(elicit_p_prompt, max_tokens=10)
+                    try:
+                        p = float(p_response)
+                    except:
+                        p = 0.5
+                    self.factor_outcome_probs[key] = p
+                else:
+                    p = 0.5 # Default to neutral
+                factor_prob = p  
                 prob *= factor_prob
             
             outcome_probs[outcome] = prob
