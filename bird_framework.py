@@ -356,7 +356,7 @@ class ConditionMapper:
         # Return the value with highest entailment score
         best_value = max(value_scores.items(), key=lambda x: x[1])
         
-        if best_value[1] > 0.5:  # Only return if confidence is above threshold
+        if best_value[1] > 0.33:  # Only return if confidence is above threshold
             return FactorValue(
                 factor_name=factor.name,
                 value=best_value[0],
