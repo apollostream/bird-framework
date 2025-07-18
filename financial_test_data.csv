@@ -1,0 +1,21 @@
+outcome,age,income,net_worth,risk_tolerance,investment_goals_count,investment_goals_items,time_horizon,current_portfolio_stocks,current_portfolio_bonds,current_portfolio_cash,market_conditions,current_condition,stocks_percentage,bonds_percentage,cash_percentage
+growth-focused strategy,74,284965,561278,aggressive,1,house_down_payment,7,90,20,0,bull market with low volatility,inflation is rising rapidly,90,20,-10
+growth-focused strategy,37,219390,417391,conservative,1,retirement,26,30,69,1,bull market with low volatility,inflation is rising rapidly,30,69,1
+growth-focused strategy,28,188652,848866,conservative,2,retirement|house_down_payment,41,44,63,0,sideways market with uncertainty,interest rates are climbing,44,63,-7
+income-focused strategy,69,79709,115535,moderate,1,retirement,5,63,37,0,recovering market after downturn,geopolitical tensions affecting markets,63,37,0
+income-focused strategy,42,232653,856384,conservative,2,retirement|children_education,21,30,61,9,volatile market with inflation concerns,interest rates are climbing,30,61,9
+income-focused strategy,73,44736,172224,aggressive,1,house_down_payment,8,85,9,6,volatile market with inflation concerns,market volatility is increasing,85,9,6
+income-focused strategy,41,300666,625428,conservative,1,house_down_payment,4,47,65,0,sideways market with uncertainty,market volatility is increasing,47,65,-12
+income-focused strategy,79,197754,454882,conservative,1,children_education,15,22,56,22,bear market with high volatility,market volatility is increasing,22,56,22
+growth-focused strategy,54,264236,693046,moderate,1,house_down_payment,5,51,29,20,bull market with low volatility,interest rates are climbing,51,29,20
+growth-focused strategy,38,52084,47428,moderate,2,retirement|house_down_payment,32,65,39,0,recovering market after downturn,interest rates are climbing,65,39,-4
+income-focused strategy,70,93577,106461,moderate,2,retirement|house_down_payment,5,68,35,0,sideways market with uncertainty,geopolitical tensions affecting markets,68,35,-3
+income-focused strategy,64,119786,521017,conservative,2,retirement|house_down_payment,5,45,48,7,sideways market with uncertainty,geopolitical tensions affecting markets,45,48,7
+income-focused strategy,75,37886,72966,conservative,1,retirement,5,34,59,7,bull market with low volatility,market volatility is increasing,34,59,7
+income-focused strategy,69,34447,36635,moderate,1,house_down_payment,14,52,30,18,recovering market after downturn,inflation is rising rapidly,52,30,18
+income-focused strategy,42,450320,1589438,conservative,2,emergency_fund|retirement,22,29,60,11,sideways market with uncertainty,market volatility is increasing,29,60,11
+growth-focused strategy,58,270359,1192589,moderate,1,children_education,6,60,25,15,bull market with low volatility,interest rates are climbing,60,25,15
+income-focused strategy,47,43181,136661,conservative,2,retirement|children_education,16,24,56,20,bull market with low volatility,inflation is rising rapidly,24,56,20
+income-focused strategy,75,46319,187566,aggressive,1,children_education,13,85,12,3,sideways market with uncertainty,interest rates are climbing,85,12,3
+income-focused strategy,77,238530,288694,moderate,2,retirement|children_education,5,54,28,18,bull market with low volatility,geopolitical tensions affecting markets,54,28,18
+growth-focused strategy,25,383283,247572,moderate,1,retirement,41,61,27,12,volatile market with inflation concerns,interest rates are climbing,61,27,12

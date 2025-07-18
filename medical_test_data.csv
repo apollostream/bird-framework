@@ -1,0 +1,21 @@
+outcome,age,gender,symptoms_count,symptoms_items,medical_history_count,medical_history_items,vital_signs_blood_pressure,vital_signs_heart_rate,vital_signs_temperature,condition_severity,symptom_count,history_count,bp_systolic,heart_rate,temperature
+aggressive treatment,52,male,2,dizziness|weakness,1,heart disease,136/71,79,97.1,acute onset with significant distress,2,1,136,79,97.1
+aggressive treatment,76,female,3,fever|cough|sore throat,1,heart disease,133/66,65,98.9,severe symptoms that started suddenly,3,1,133,65,98.9
+aggressive treatment,84,male,2,insomnia|mood changes,1,allergies,151/60,120,98.8,worsening symptoms over the past week,2,1,151,120,98.8
+aggressive treatment,51,male,2,insomnia|mood changes,2,hypertension|diabetes,154/93,70,97.3,acute onset with significant distress,2,2,154,70,97.3
+aggressive treatment,61,male,2,chest pain|shortness of breath,2,hypertension|diabetes,134/97,79,100.2,worsening symptoms over the past week,2,2,134,79,100.2
+aggressive treatment,59,male,2,chest pain|shortness of breath,2,heart disease|high cholesterol,124/109,101,98.7,severe symptoms that started suddenly,2,2,124,101,98.7
+conservative treatment,33,female,3,nausea|vomiting|abdominal pain,0,,135/74,100,98.0,severe symptoms that started suddenly,3,0,135,100,98.0
+aggressive treatment,18,female,2,back pain|muscle stiffness,2,hypertension|diabetes,146/81,71,101.8,severe symptoms that started suddenly,2,2,146,71,101.8
+aggressive treatment,34,female,2,headache|fatigue,1,asthma,142/101,69,97.4,severe symptoms that started suddenly,2,1,142,69,97.4
+conservative treatment,59,female,2,rash|itching,1,depression,141/104,78,99.8,moderate symptoms present for several days,2,1,141,78,99.8
+conservative treatment,55,female,2,anxiety|palpitations,1,hypertension,156/72,65,98.2,worsening symptoms over the past week,2,1,156,65,98.2
+conservative treatment,68,male,3,nausea|vomiting|abdominal pain,1,allergies,161/83,65,101.0,mild symptoms that started gradually,3,1,161,65,101.0
+aggressive treatment,62,female,2,headache|fatigue,1,allergies,125/60,96,101.3,chronic symptoms with recent exacerbation,2,1,125,96,101.3
+aggressive treatment,52,female,2,anxiety|palpitations,1,hypertension,174/94,89,99.1,moderate symptoms present for several days,2,1,174,89,99.1
+aggressive treatment,23,male,2,rash|itching,2,hypertension|diabetes,178/98,90,98.5,moderate symptoms present for several days,2,2,178,90,98.5
+aggressive treatment,41,female,2,chest pain|shortness of breath,1,depression,169/80,102,101.2,chronic symptoms with recent exacerbation,2,1,169,102,101.2
+aggressive treatment,56,male,3,fever|cough|sore throat,1,asthma,119/84,104,97.8,moderate symptoms present for several days,3,1,119,104,97.8
+conservative treatment,64,male,3,fever|cough|sore throat,1,depression,110/94,109,101.6,mild symptoms that started gradually,3,1,110,109,101.6
+aggressive treatment,78,male,2,chest pain|shortness of breath,0,,178/100,75,97.5,severe symptoms that started suddenly,2,0,178,75,97.5
+aggressive treatment,65,male,2,headache|fatigue,2,hypertension|diabetes,169/96,66,97.4,moderate symptoms present for several days,2,2,169,66,97.4
